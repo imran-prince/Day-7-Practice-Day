@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lion Rotate</title>
+    <style>
+        body
+        {
+            background-image: url(images/burger.jpg);
+            background-color: rgba(0,0,0, 0.6);
+            background-blend-mode: overlay;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+        }
+        .lion-album{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .album{
+            width: 300px;
+            height: 300px;
+            border: 2px solid gray;
+            margin: 0;
+            margin: 10px;
+            overflow: hidden;
+            border-radius: 5px;
+            position: relative;
+            
+
+        }
+        .album img{
+            width: 100%;
+        }
+        .album p{
+            position: absolute;
+            width: 300px;
+            top: 0;
+            display: none;
+        }
+        .album:hover p{
+            display: block;
+            background-color: greenyellow;
+
+        }
+        .album:hover img{
+            transform: scale(1.9) ;
+            transition: transform 2s ease-in;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="lion-album">
+        <div class="album">
+            <img src="images/lion.jpg" alt="">
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa ducimus animi sequi similique dolore voluptates ipsum, sunt, molestias, unde aspernatur? Ipsam, placeat necessitatibus qui enim, ad dolore illo quidem corrupti harum obcaecati dignissimos mollitia et! Vel ipsa nihil tempora!</p>
+        </div>
+        <div class="album">
+            <img src="images/lion.jpg" alt="">
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa ducimus animi sequi similique dolore voluptates ipsum, sunt, molestias, unde aspernatur? Ipsam, placeat necessitatibus qui enim, ad dolore illo quidem corrupti harum obcaecati dignissimos mollitia et! Vel ipsa nihil tempora!</p>
+        </div>
+        <div class="album">
+            <img src="images/lion.jpg" alt="">
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa ducimus animi sequi similique dolore voluptates ipsum, sunt, molestias, unde aspernatur? Ipsam, placeat necessitatibus qui enim, ad dolore illo quidem corrupti harum obcaecati dignissimos mollitia et! Vel ipsa nihil tempora!</p>
+        </div>
+        <div class="album">
+            <img src="images/lion.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa ducimus animi sequi similique dolore voluptates ipsum, sunt, molestias, unde aspernatur? Ipsam, placeat necessitatibus qui enim, ad dolore illo quidem corrupti harum obcaecati dignissimos mollitia et! Vel ipsa nihil tempora!</p>
+        </div>
+        <div class="album">
+            <img src="images/lion.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa ducimus animi sequi similique dolore voluptates ipsum, sunt, molestias, unde aspernatur? Ipsam, placeat necessitatibus qui enim, ad dolore illo quidem corrupti harum obcaecati dignissimos mollitia et! Vel ipsa nihil tempora!</p>
+        </div>
+        
+         
+    </div>
+    
+</body>
+</html>

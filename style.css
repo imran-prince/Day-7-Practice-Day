@@ -16,12 +16,25 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    /* order: 1; */
+    /* flex-grow: 1; */
 }
 .navleft img{
     height: 5px;
     width: 5px;
     margin-right: 10px;
       
+
+}
+.blog-title button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 -3px 2px #a5075e;
+    background-color: #FF008E ;
+}
+.blog-title button:hover{
+    box-shadow: 0 5px 3px #a5075e;
+
 
 }
 .navright ol{
@@ -183,17 +196,30 @@ hr{
         grid-template-columns: 1fr;
          
     }
-    .navright ol{
+    .navright ol {
         display: flex;
         flex-direction: column;
+        
          
     }
-    .player,.blogs,.courses{
+    .blogs,.courses{
         display: grid;
         grid-template-columns: 1fr;
         justify-content: space-between;
 
     }
+    .player{
+        display:grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .players{
+        margin: 0 auto;
+    }
+    
+
      
     
     
