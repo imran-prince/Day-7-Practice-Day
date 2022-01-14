@@ -175,6 +175,8 @@ hr{
 @media (max-width:688px) {
     .commmon-container{
         width: 90%;
+        margin-left: 0;
+        padding: 0;
     }
     .navigation{
         display: grid;
@@ -189,8 +191,10 @@ hr{
     .player,.blogs,.courses{
         display: grid;
         grid-template-columns: 1fr;
+        justify-content: space-between;
 
     }
+     
     
     
     
